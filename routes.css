@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section{
+  padding: 10px 100px;
+}
+
+.section-home{
+  position: relative;
+  min-height: 50vh;
+  background: #23252b;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-home:before{
+  content: '';
+  position: absolute;
+  background: linear-gradient(to top, #23252B, transparent);
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+}
+
+.section-home h1{
+  color: #fff;
+  font-size: 8vw;
+  font-weight: 800;
+  text-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  opacity: 0.6;
+}
+
+.section-two{
+  min-height: 100vh;
+  background: #23252B;
+  text-align: left;
+}
+
+.section-two h2{
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 30px 0;
+  margin-right: 15%;
+  text-align: right;
+}
+
+.section-two h1{
+  color: #fff;
+  font-size: 2.0em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  margin: 30px 0;
+  text-align: center;
+  margin-right: 10%;
+}
+
+.section-two p{
+  color: #fff;
+  font-size: 2em;
+  font-family: monospace;
+  align-items: center;
+  margin: 30px 0;
+  text-align: center;
+  margin-right: 30%;
+}
+
+.section-two iframe{
+width: 150%;
+}
+.map-wrapper{
+max-width: 500px;
+float: right;
+margin-left: 5%;
+margin-right: 20%;
+margin-bottom: 5%;
+}
+
+.section-three{
+  min-height: 100vh;
+  background: #23252B;
+  text-align: right;
+}
+
+.section-three h1{
+  color: #fff;
+  font-size: 2.0em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.section-three h2{
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 30px 0;
+  text-align: left;
+  margin-left: 15%;
+}
+
+.section-three p{
+  color: #fff;
+  font-size: 2em;
+  margin: 30px 0;
+  font-family: monospace;
+  text-align: center;
+  margin-left: 20%;
+  
+}
+
+.section-three iframe{
+  width: 150%;
+  }
+
+  .map-wrappers{
+    max-width: 500px;
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%; 
+  }
+
+
+
+header{
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #23252b;
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  padding: 0 100px;
+  transition: 0.6s;
+}
+
+header .logo{
+  color: rgb(255, 255, 255);
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+  header{
+    padding: 15px 20px;
+  }
+
+  header.sticky{
+    padding: 10px 20px;
+  }
